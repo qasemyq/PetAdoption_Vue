@@ -61,7 +61,6 @@ methods:{
     'addPet'
   ]),
   togglePetForm(){
-    // form ro toggle mikone 
     this.showPetForm = !this.showPetForm
   },
   handleSubmit(){
