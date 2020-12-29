@@ -22,11 +22,8 @@ export default {
         ])
     },
     mounted() {
-        // this.$route.params.species esme heyun hast
-        // his[this.$route.params.species] barabare ba dastrasi be dataye ke bala hast yani this.cats this.dogs  
-        // this.$route.params.id]   inja ham index heyvun ro midam
         const animal = this[this.$route.params.species][this.$route.params.id]
-        this.animal = animal // in animal hamun animal hast ke dar data sakhtam animal: {}
+        this.animal = animal 
     }
 }
 </script>
